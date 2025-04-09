@@ -32,4 +32,4 @@ jobs:
             cd /home/ubuntu/app
             npm install
             pm2 stop all || true
-            pm2 start index.js --name "express-app"
+            pm2 start server.js --name "express-app"
